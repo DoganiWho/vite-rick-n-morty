@@ -2,6 +2,7 @@ import React, {useContext} from 'react'
 import CharacterCard from '../components/CharacterCard'
 import { FavoritesContext } from '../context/FavoritesContext'
 import { ThemeContext } from '../context/ThemeContext'
+import '../styles/Pages.css'
 // import './Favorites.css'
 
 function Favorites() {

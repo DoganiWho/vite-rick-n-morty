@@ -1,5 +1,6 @@
 import React, {useContext} from 'react'
 import { Link } from 'react-router-dom'
+import './styles/Components.css'
 // import './Header.css'
 
 //provides access to global state

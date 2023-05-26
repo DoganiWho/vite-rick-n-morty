@@ -1,4 +1,5 @@
 import React from 'react'
+import './styles/Components.css'
 // import './Search.css'
 import axios from 'axios'
 

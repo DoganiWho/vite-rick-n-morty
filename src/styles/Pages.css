@@ -1,0 +1,153 @@
+/* About page */
+.about-container{
+    min-height: 100vh;
+}
+.about-dark{
+    background-color: black;
+    color:white;
+ }
+
+.about-container h1{
+    padding: 20px;
+}
+
+.about-container p{
+    padding: 20px;
+}
+
+/* Character Details Page */
+
+.details-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    min-height: 100vh;
+    padding-top: 50px;
+    background-image: url("../assets/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    position: relative;
+    z-index: 0; 
+}
+
+.details-container::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.5); 
+    z-index:-1;
+}
+
+.details-container img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 20px 2px rgba(0, 0, 0, 0.3);
+    /* z-index: 1; */
+  }
+
+  .container-info {
+    margin-top: 20px;
+    width:30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 2px rgba(0, 0, 0, 0.2);
+  }
+  
+  .container-info p {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .container-info span {
+    font-weight: bold;
+    color: var(--primary-bg);
+  }
+
+/* Episodes Page */
+.episodes-container{
+    min-height: 100vh;
+    padding: 25px;
+    display: flex;
+}
+
+.episodes-dark{
+    background-color: black;
+    color:white;
+ }
+
+.character-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.episodes-container form{
+    padding:0 25px;
+}
+
+#select-episode{
+    border:solid 2px var(--primary-bg);
+    border-radius:5px;
+    padding:8px 16px;
+}
+.episode-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Favorites Page */
+
+.favorites-container{
+    min-height: 90vh;
+}
+
+.favorites-dark{
+    background-color: black;
+    color:white;
+ }
+
+.favorites-container h1{
+    text-align: center;
+ 
+}
+
+.favorite-characters{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+/* Home Page */
+
+.home-container{
+    min-height: 100vh;
+    padding: 30px 10px;
+}
+
+.home-dark{
+    background-color: black;
+    color:white;
+ }
+
+.home-container h1{
+    text-align: center;
+    margin-bottom:40px;
+ }
+
+ .characters-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+ }

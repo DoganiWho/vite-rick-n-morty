@@ -1,4 +1,5 @@
 import React, {useContext} from 'react'
+import '../styles/Pages.css'
 // import './Episodes.css'
 import axios from 'axios'
 import CharacterCard from '../components/CharacterCard'

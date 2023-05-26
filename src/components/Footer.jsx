@@ -1,5 +1,6 @@
 import React, {useContext} from 'react'
 // import './Footer.css'
+import './styles/Components.css'
 import Modal from 'react-modal'
 //provides access to global state
 import {ThemeContext} from '../context/ThemeContext'

@@ -1,5 +1,6 @@
 import React from 'react'
 import { useParams } from 'react-router-dom'
+import '../styles/Pages.css'
 // import './Characters.css'
 import axios from 'axios'
 
